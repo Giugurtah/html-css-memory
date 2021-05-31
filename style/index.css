@@ -15,6 +15,12 @@ body{
     float: left;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .violet{
     color: violet;
 }
@@ -110,4 +116,12 @@ header h1 {
     opacity: 1;
 }
 
+/* Footer */
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
 
+footer span{
+    color: red;
+}
