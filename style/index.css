@@ -5,13 +5,50 @@
     padding: 0;
 }
 
+/* General */
 body{
     background-color: rgb(174, 216, 229);
+    font-family: 'Pattaya', sans-serif;
 }
 
+.float{
+    float: left;
+}
+
+/* Header */
 header h1 {
     text-align: center;
     font-size: 50px;
-    font-family: 'Pattaya', sans-serif;
     color: white;
 }
+
+/* Main */
+.container_main{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(100% / 4);
+    height: 200px;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.row .card:nth-of-type(2){
+    width: calc((100% / 4) - 6px);
+    margin-left: 4px;
+    margin-right: 2px;
+}
+
+.row .card:nth-of-type(3){
+    width: calc((100% / 4) - 6px);
+    margin-left: 2px;
+    margin-right: 4px;
+}
+
+
+
+
