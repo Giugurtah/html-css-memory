@@ -8,7 +8,7 @@
 /* General */
 body{
     background-color: rgb(174, 216, 229);
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Nerko One', cursive;
 }
 
 .float{
@@ -48,7 +48,7 @@ body{
 /* Header */
 header h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: white;
 }
 
@@ -109,7 +109,7 @@ header h1 {
     bottom: 15px;
     left: 50%;
     transform: translate(-50%, 0); 
-    font-size: 19px;
+    font-size: 18;
 }
 
 .row:nth-of-type(2) .card:nth-of-type(3) .back_side{
