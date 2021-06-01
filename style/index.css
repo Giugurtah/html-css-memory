@@ -106,11 +106,12 @@ header h1 {
 
 .card_text{
     position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translate(-50%, 0); 
-    font-size: 18;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    font-size: 30px;
 }
+
 
 .row:nth-of-type(2) .card:nth-of-type(3) .back_side{
     opacity: 1;
